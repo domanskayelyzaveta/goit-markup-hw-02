@@ -1,13 +1,235 @@
-.tohide: {
+
+
+ /* ---ЗМІННІ--- */
+
+ :root {
+    --main-text-font: "Roboto", sans-serif;
+    --secondary-text-font: "Raleway", sans-serif; 
+    --main-text-color: #2E2F42; 
+    --secondary-text-color:#434455;
+    --additional-text-color: #FFF;
+    --white-background-color: #FFF; 
+    --navy-background-color: #2E2F42;
+    --additional-background-color:#F4F4FD;
+    --cornflower-color:#E7E9FC;
+    --purple-color: #4D5AE5;
+    --ocean-button-color: #404BBF;
+}
+
+/* ----GENERAL---- */
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+font-family: var(--main-text-font);
+background-color: #FFF;
+font-size: 36px;
+line-height: 1,1;
+color: var(--main-text-color);
+}
+
+/* -----HEADER---- */
+
+.page-header {
+}
+
+.page-navigation{
+}
+
+.logo-link {
+    font-family: var(--secondary-text-font);
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1,16;
+    letter-spacing: 0.54px;
+  
+}
+
+.web-logo {
+    color:#2E2F42;
+}
+.web-logo-footer {
+color: #F4F4FD;}
+
+.menu {
+    color: var(--main-text-color);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1,16;
+    letter-spacing: 0.54px;
+}
+
+.menu-item{
+        color: var(--main-text-color);
+        font-family: var(--main-text-font);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1,5;
+        letter-spacing: 0.32px;
+}
+
+.menu-item:active,
+.menu-item:hover { color: var(--ocean-button-color);
+    /* text-decoration: underline; */
+}
+
+.contact {
+        color: var(--secondary-text-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 0,66;
+        letter-spacing: 0.32px;
+}
+
+.mail:active { color: var(--ocean-button-color);
+
+}
+
+.title-hero {
+    
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1,07;
+        letter-spacing: 1.12px;
+        color: var(--additional-text-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-list {
+    color: var(--secondary-text-color);
+}
+
+/* ----MAIN---- */
+
+.hero {
+    background-color: var(--navy-background-color);
+}
+
+.main-button {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    line-height: 1,5;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--purple-color);
+    color: var(--white, #FFF);
+
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    display: block;
+    margin: auto;
+
+
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.main-button:hover,
+.main-button:focus {
+background-color: var(--ocean-button-color);
+} 
+
+.second-page-button {
+    
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower-color);
+    background: var(--additional-background-color);
+    color: var(--purple-color);
+    cursor: pointer;
+
+}
+
+.second-page-button:hover,
+second-page-button:focus{
+background-color: var(--ocean-button-color);
+color: var(--additional-text-color);}
+
+/* =========--SECTION_2--========= */
+
+.second-section {}
+
+
+.description-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
-
+    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+/* .about-us {
+
+}
+
+.about-us-description {
+
+}
+
+.our-service-section {
+}
+
+.title-what-we-are-doing{
+}
+
+.team-section {
+}
+
+.our-team-title{ */
+}
+
+.service-list {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1,2;
+    letter-spacing: 0.4px;
+    color: var(--navy-background-color);
+
+}
+
+.service-list-mark {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.32px;
+    color: var(--secondary-text-color);
+}
+
+.footer-figuration{
+background-color: var(--navy-background-color);}
+
+.footer-text {
+    width: 264px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.32px;
+    color: var(--additional-background-color);
 }
