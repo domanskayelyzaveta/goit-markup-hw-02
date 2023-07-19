@@ -124,7 +124,7 @@ color: var(--ocean-button-color);
         line-height: 1.07;
         letter-spacing: 1.12px;
         color: var(--additional-text-color);
-        text-align: cente;
+        text-align: center;
 }
 
 .address {
@@ -231,8 +231,10 @@ color: var(--additional-text-color);}
         color: var(--main-text-color);
 }
 
+
 .team-section {
     color: var(--main-text-color);
+    background-color: var(--additional-background-color);
 }
 
 .our-team-title{ 
@@ -242,6 +244,7 @@ color: var(--additional-text-color);}
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+        text-align: center;
         color: var(--main-text-color);
         background-color: var(--additional-background-color);
 }
@@ -263,6 +266,11 @@ color: var(--additional-text-color);}
         line-height: 1.2;
         letter-spacing: 0.4px;
         color: var(--main-text-color);
+
+}
+
+.staff-title {
+        background-color: #FFF;
 
 }
 .service-list {
