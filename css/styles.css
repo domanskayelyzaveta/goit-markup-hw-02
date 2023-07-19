@@ -34,6 +34,25 @@ line-height: 1.1;
 color: var(--secondary-text-color);
 }
 
+h1,h2,h3,p {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+ul,ol {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+img {
+display: block;
+}
+
+button {
+cursor: pointer;
+}
+
 /* -----HEADER---- */
 
 .page-header {
@@ -128,7 +147,6 @@ color: var(--ocean-button-color);
     letter-spacing: 0.64px;
     line-height: 1.5;
     font-family: inherit;
-    cursor: pointer;
     background-color: var(--purple-color);
     color: var(--white, #FFF);
 
@@ -157,7 +175,6 @@ background-color: var(--ocean-button-color);
     border: 1px solid var(--cornflower-color);
     background: var(--additional-background-color);
     color: var(--purple-color);
-    cursor: pointer;
 
 }
 
@@ -205,16 +222,17 @@ color: var(--additional-text-color);}
 
 .title-what-we-are-doing{
     
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+        text-align: center;
         color: var(--main-text-color);
 }
 
 .team-section {
+    color: var(--main-text-color);
 }
 
 .our-team-title{ 
@@ -228,11 +246,30 @@ color: var(--additional-text-color);}
         background-color: var(--additional-background-color);
 }
 
+.team-position {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--secondary-text-color);
+
+}
+
+.staff-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--main-text-color);
+
+}
 .service-list {
     font-family: inherit;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.4px;
     color: var(--navy-background-color);
 
@@ -241,7 +278,7 @@ color: var(--additional-text-color);}
 .service-list-mark {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--secondary-text-color);
 }
@@ -253,7 +290,7 @@ background-color: var(--navy-background-color);}
 
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--additional-background-color);
 }
