@@ -118,7 +118,6 @@ color: var(--ocean-button-color);
 .hero {
     background-color: var(--navy-background-color);
     text-align: center;
-    /* padding: 188px 0; */
 }
 
 .main-button {
@@ -155,17 +154,11 @@ color: var(--additional-text-color);
 
 /* =========--SECTION_2--========= */
 
-/* .second-section {
-padding-bottom: 0;} */
-
 
 .description-hidden {
-    /* position: absolute; */
-    /* height: 1px; */
+
     margin: -1px;
     border: 0;
-    /* padding: 0; */
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -247,10 +240,6 @@ padding-bottom: 0;} */
 
 }
 
-/* .team-container {
-    padding: 32px 0;
-    text-align: center;
-} */
 
 .service-list {
     font-family: inherit;
