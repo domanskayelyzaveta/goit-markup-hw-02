@@ -58,8 +58,18 @@ cursor: pointer;
 
 .page-header {
 }
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.section {
+    padding: 120px 0;}
 
 .page-navigation{
+    padding: 24px 0px;
+    display: inline-block;
 }
 
 .logo-link {
@@ -70,6 +80,9 @@ cursor: pointer;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    padding: 24px 0px;
+    display: inline-block;
+    
   
 }
 
@@ -110,6 +123,8 @@ color: #F4F4FD;}
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        padding: 24px 0px;
+        display: inline-block;
 }
 .contact:hover,
 .contact:focus,
@@ -119,13 +134,14 @@ color: var(--ocean-button-color);
 
 
 .title-hero {
-    
+        margin-bottom: 48px;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 1.12px;
         color: var(--additional-text-color);
-        text-align: center;
+        /* text-align: center; */
+
 }
 
 .address {
@@ -140,26 +156,21 @@ color: var(--ocean-button-color);
 
 .hero {
     background-color: var(--navy-background-color);
+    text-align: center;
+    padding: 188px 0;
 }
 
 .main-button {
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.64px;
-    line-height: 1.5;
-    font-family: inherit;
-    background-color: var(--purple-color);
-    color: var(--white, #FFF);
-
-    display: inline-flex;
-    padding: 16px 32px;
-    gap: 10px;
-    display: block;
-    margin: auto;
-
-
-    background: var(--iris, #4D5AE5);
+    border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    background-color: var(--purple-color);
+    color: var(--additional-text-color);
 }
 
 
@@ -176,17 +187,23 @@ background-color: var(--ocean-button-color);
     border: 1px solid var(--cornflower-color);
     background: var(--additional-background-color);
     color: var(--purple-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
 }
 
 .second-page-button:hover,
-second-page-button:focus{
+.second-page-button:focus {
 background-color: var(--ocean-button-color);
-color: var(--additional-text-color);}
+color: var(--additional-text-color);
+}
 
 /* =========--SECTION_2--========= */
 
-.second-section {}
+.second-section {
+padding-bottom: 0;}
 
 
 .description-hidden {
@@ -207,7 +224,8 @@ color: var(--additional-text-color);}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--main-text-color)
+    color:var(--main-text-color);
+    margin-bottom: 8px;
 }
 
 
@@ -230,6 +248,7 @@ color: var(--additional-text-color);}
         text-transform: capitalize;
         text-align: center;
         color: var(--main-text-color);
+        margin-bottom: 72px;
 }
 
 
@@ -261,19 +280,25 @@ color: var(--additional-text-color);}
 }
 
 .staff-title {
-        text-align: center;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
-        color: var(--main-text-color);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--main-text-color);
 
 }
 
 .staff-photo {
-        background-color: #FFF;
+    background-color: #FFF;
 
 }
+
+.team-container {
+    padding: 32px 0;
+    text-align: center;
+}
+
 .service-list {
     font-family: inherit;
     font-size: 20px;
