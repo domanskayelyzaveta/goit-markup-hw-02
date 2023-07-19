@@ -183,18 +183,20 @@ color: var(--additional-text-color);}
     clip: rect(0 0 0 0);
     overflow: hidden;
 
+}
+.about-us {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color:var(--main-text-color)
 }
 
-/* .about-us {
-
-}
 
 .about-us-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
 }
 
@@ -202,12 +204,28 @@ color: var(--additional-text-color);}
 }
 
 .title-what-we-are-doing{
+    
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        color: var(--main-text-color);
 }
 
 .team-section {
 }
 
-.our-team-title{ */
+.our-team-title{ 
+   
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        color: var(--main-text-color);
+        background-color: var(--additional-background-color);
 }
 
 .service-list {
