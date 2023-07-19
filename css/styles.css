@@ -275,6 +275,6 @@ background-color: var(--navy-background-color);}
 
 .footer-text {
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--additional-background-color);
 }
