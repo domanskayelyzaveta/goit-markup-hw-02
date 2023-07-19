@@ -207,7 +207,7 @@ padding-bottom: 0;}
 
 
 .description-hidden {
-    position: absolute;
+    /* position: absolute; */
     height: 1px;
     margin: -1px;
     border: 0;
