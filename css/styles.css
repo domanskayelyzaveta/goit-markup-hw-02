@@ -34,16 +34,16 @@ line-height: 1.1;
 color: var(--secondary-text-color);
 }
 
-h1,h2,h3,p {
+/* h1,h2,h3,p {
 margin-top: 0;
 margin-bottom: 0;
-}
+} */
 
-ul,ol {
+/* ul,ol {
 margin-top: 0;
 margin-bottom: 0;
-/* padding-left: 0; */
-}
+padding-left: 0;
+} */
 
 img {
 /* display: block; */
