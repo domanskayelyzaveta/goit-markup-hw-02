@@ -67,10 +67,10 @@ cursor: pointer;
 /* .section {
     padding: 120px 0;} */
 
-.page-navigation{
+/* .page-navigation{
     padding: 24px 0px;
-    /* display: inline-block; */
-}
+    display: inline-block;
+} */
 
 .logo-link {
     font-family: var(--secondary-text-font);
@@ -80,7 +80,7 @@ cursor: pointer;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    padding: 24px 0px;
+    /* padding: 24px 0px; */
     /* display: inline-block; */
     
   
