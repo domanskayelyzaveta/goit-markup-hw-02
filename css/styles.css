@@ -182,7 +182,7 @@ background-color: var(--ocean-button-color);
 
 .second-page-button {
     font-family: var(--main-text-font);
-    padding: 12px 24px;
+    /* padding: 12px 24px; */
     justify-content: center;
     border: 1px solid var(--cornflower-color);
     background: var(--additional-background-color);
