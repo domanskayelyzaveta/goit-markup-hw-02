@@ -246,7 +246,7 @@ color: var(--additional-text-color);}
         text-transform: capitalize;
         text-align: center;
         color: var(--main-text-color);
-        background-color: var(--additional-background-color);
+
 }
 
 .team-position {
@@ -269,7 +269,7 @@ color: var(--additional-text-color);}
 
 }
 
-.staff-title {
+.staff-photo {
         background-color: #FFF;
 
 }
